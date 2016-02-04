@@ -4,11 +4,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <SeekBar
+        android:id="@+id/sb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:max="100"
         android:progressDrawable="@drawable/my_bar"/>
     <ImageView
+        android:id="@+id/image_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/layout_logo"/>

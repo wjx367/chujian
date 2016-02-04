@@ -26,6 +26,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".WebActivity"></activity>
+        <activity android:name=".LayerDrawableActivity">
+
+        </activity>
     </application>
 
 </manifest>
