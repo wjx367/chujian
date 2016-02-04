@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Inline"
+    android:minHeight="120dp"
+     >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        style="@style/Full"
+         />
+
+        <LinearLayout
+            android:id="@+id/dot_layout"
+            style="@style/HorizontalInline"
+            android:gravity="center"
+            android:padding="2dp"
+            android:layout_gravity="bottom"
+             >
+        </LinearLayout>
+
+</FrameLayout>
